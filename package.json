@@ -4,9 +4,16 @@
   "main": "index.js",
   "author": "Andrew T. James",
   "license": "MIT",
-  "repository": "https://github.com/andrew-t-james/react-docen-styled-component-resolver",
+  "repository": "https://github.com/andrew-t-james/react-docgen-styled-component-resolver/",
   "files": [
     "index.js"
+  ],
+  "keywords": [
+    "react-docgen",
+    "resolver",
+    "styled",
+    "styled-component",
+    "documentation"
   ],
   "scripts": {
     "example": "node example-usage.js",
