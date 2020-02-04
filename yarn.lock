@@ -3482,6 +3482,11 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
+react-docgen-styled-component-resolver@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-docgen-styled-component-resolver/-/react-docgen-styled-component-resolver-1.0.0.tgz#71ed0ba638c28dfe6f3fe57b05d3b2c6e6f79437"
+  integrity sha512-594Bh70W6gDU4Pc1HRNQcirsnaJfV/vQS/TCsIdIl4Y/f5E8CV6dyz+SoGH/sxvpp8UJ142wFLv7xWAuWTxVZA==
+
 react-docgen@5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-docgen/-/react-docgen-5.1.0.tgz#8e69f1d2e9153c535c20162ea1b85878b059b474"

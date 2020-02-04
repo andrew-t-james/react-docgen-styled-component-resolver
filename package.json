@@ -1,6 +1,6 @@
 {
   "name": "react-docgen-styled-component-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Andrew T. James",
   "license": "MIT",
@@ -52,6 +52,7 @@
     "jest-coverage-badges": "1.1.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "react-docgen": "5.1.0"
+    "react-docgen": "5.1.0",
+    "react-docgen-styled-component-resolver": "1.0.0"
   }
 }
