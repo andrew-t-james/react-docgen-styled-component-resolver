@@ -1,9 +1,5 @@
 ![Node.js CI](https://github.com/andrew-t-james/react-docgen-styled-component-resolver/workflows/Node.js%20CI/badge.svg?branch=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-![Coverage lines](./coverage/badge-lines.svg)
-![Coverage functions](./coverage/badge-functions.svg)
-![Coverage branches](./coverage/badge-branches.svg)
-![Coverage statements](./coverage/badge-statements.svg)
 
 # react-docgen-styled-component-resolver
 
