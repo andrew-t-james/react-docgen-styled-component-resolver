@@ -1,0 +1,50 @@
+{
+  "name": "react-docgen-styled-component-resolver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andrew T. James",
+  "license": "MIT",
+  "repository": "https://github.com/andrew-t-james/react-docen-styled-component-resolver",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "example": "node example-usage.js",
+    "lint": "eslint '*.js'",
+    "prettier": "prettier --write '*.js'",
+    "test": "jest --verbose",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges",
+    "test:coverage": "npm test -- --coverage",
+    "test:watch": "jest --watch --verbose"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run prettier",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.8.4",
+    "ast-types": "^0.13.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1",
+    "jest": "^25.1.0",
+    "jest-coverage-badges": "1.1.2",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "react-docgen": "5.1.0"
+  }
+}

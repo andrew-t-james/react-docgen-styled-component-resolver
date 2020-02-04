@@ -1,0 +1,5 @@
+__snapshots__
+.github
+coverage
+.gitignore
+example-output

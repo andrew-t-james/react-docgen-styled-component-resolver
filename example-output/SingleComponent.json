@@ -1,0 +1,18 @@
+{
+  "description": "some description of Component here",
+  "displayName": "SingleComponent",
+  "methods": [],
+  "props": {
+    "foo": {
+      "type": {
+        "name": "string"
+      },
+      "required": false,
+      "description": "some description for foo prop",
+      "defaultValue": {
+        "value": "\"bar\"",
+        "computed": false
+      }
+    }
+  }
+}

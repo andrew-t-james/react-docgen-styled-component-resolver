@@ -1,0 +1,18 @@
+{
+  "description": "some description for custom Div styled component",
+  "displayName": "CustomDiv",
+  "methods": [],
+  "props": {
+    "foo": {
+      "type": {
+        "name": "string"
+      },
+      "required": false,
+      "description": "some description",
+      "defaultValue": {
+        "value": "\"bar\"",
+        "computed": false
+      }
+    }
+  }
+}

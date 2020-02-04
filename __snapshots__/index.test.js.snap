@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`styled-resolver should resolve both styled components and react components 1`] = `
+Array [
+  Object {
+    "description": "",
+    "methods": Array [],
+    "props": Object {
+      "foo": Object {
+        "defaultValue": Object {
+          "computed": false,
+          "value": "\\"bar\\"",
+        },
+        "description": "some description",
+        "required": false,
+        "type": Object {
+          "name": "string",
+        },
+      },
+    },
+  },
+  Object {
+    "description": "",
+    "displayName": "Component",
+    "methods": Array [],
+    "props": Object {
+      "bar": Object {
+        "defaultValue": Object {
+          "computed": false,
+          "value": "false",
+        },
+        "description": "some description",
+        "required": false,
+        "type": Object {
+          "name": "bool",
+        },
+      },
+    },
+  },
+]
+`;
+
+exports[`styled-resolver should resolve named export styled components 1`] = `
+Object {
+  "description": "",
+  "methods": Array [],
+  "props": Object {
+    "foo": Object {
+      "defaultValue": Object {
+        "computed": false,
+        "value": "\\"bar\\"",
+      },
+      "description": "some description",
+      "required": false,
+      "type": Object {
+        "name": "string",
+      },
+    },
+  },
+}
+`;
+
+exports[`styled-resolver should resolve styled components 1`] = `
+Object {
+  "foo": Object {
+    "defaultValue": Object {
+      "computed": false,
+      "value": "\\"bar\\"",
+    },
+    "description": "some description",
+    "required": false,
+    "type": Object {
+      "name": "string",
+    },
+  },
+}
+`;
+
+exports[`styled-resolver should resolve styled components using the factory function 1`] = `
+Object {
+  "foo": Object {
+    "defaultValue": Object {
+      "computed": false,
+      "value": "\\"bar\\"",
+    },
+    "description": "some description",
+    "required": false,
+    "type": Object {
+      "name": "string",
+    },
+  },
+}
+`;

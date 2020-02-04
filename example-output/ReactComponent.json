@@ -1,0 +1,29 @@
+{
+  "description": "",
+  "displayName": "ReactComponent",
+  "methods": [],
+  "props": {
+    "bar": {
+      "type": {
+        "name": "bool"
+      },
+      "required": false,
+      "description": "some description for react bar prop",
+      "defaultValue": {
+        "value": "false",
+        "computed": false
+      }
+    },
+    "children": {
+      "type": {
+        "name": "node"
+      },
+      "required": false,
+      "description": "some description for react children prop",
+      "defaultValue": {
+        "value": "null",
+        "computed": false
+      }
+    }
+  }
+}
