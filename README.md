@@ -1,6 +1,6 @@
 # react-docgen-styled-component-resolver
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F%2Fandrew-t-james%2Freact-docgen-styled-component-resolver%2Fbadge%3Fref%3Dmaster&style=for-the-badge)](https://github.com/andrew-t-james/react-docgen-styled-component-resolver/actions)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fandrew-t-james%2Freact-docgen-styled-component-resolver%2Fbadge%3Fref%3Dmaster&style=for-the-badge)](https://actions-badge.atrox.dev/andrew-t-james/react-docgen-styled-component-resolver/goto?ref=master)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge&logo=prettier)](https://github.com/prettier/prettier)
 [![downloads](https://img.shields.io/npm/dw/react-docgen-styled-component-resolver?style=for-the-badge&logo=npm)](https://github.com/andrew-t-james/react-docgen-styled-component-resolver)
 
