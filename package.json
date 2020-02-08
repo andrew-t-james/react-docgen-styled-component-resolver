@@ -12,7 +12,7 @@
     "react-docgen",
     "resolver",
     "styled",
-    "styled-component",
+    "styled-components",
     "documentation"
   ],
   "scripts": {
@@ -45,14 +45,15 @@
     "ast-types": "^0.13.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jest": "^23.7.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.1",
     "jest": "^25.1.0",
-    "jest-coverage-badges": "1.1.2",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "react-docgen": "5.1.0",
-    "react-docgen-styled-component-resolver": "1.0.0"
+    "react-docgen": "5.2.0"
+  },
+  "peerDependencies": {
+    "react-docgen": ">= 5.0.0"
   }
 }
