@@ -7,9 +7,9 @@ module.exports = ast => {
   const exportTagged = path => {
     const definitions = utils.resolveExportDeclaration(path, t);
 
-    return definitions
-      .filter(Boolean)
-      .map(definition => utils.resolveToValue(resolveHOC(definition)));
+    return definitions.filter(Boolean).map(definition => {
+      return utils.resolveToValue(resolveHOC(definition));
+    });
   };
 
   const visitor = path => {
